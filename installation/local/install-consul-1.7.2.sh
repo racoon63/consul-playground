@@ -8,11 +8,11 @@ unzip /tmp/consul.zip -d /tmp/
 mv /tmp/consul /usr/local/bin/
 chmod +x /usr/local/bin/consul
 
-# Cleanup
+# Cleanup (optional)
 apt-get purge -y zip curl
 apt-get autoremove -y
 apt-get autoclean
 apt-get clean
 
 # Running consul agent in dev mode - NEVER use this in prod env!
-consul agent -dev
+#consul agent -dev
