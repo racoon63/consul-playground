@@ -1,1 +1,1 @@
-# consul-playground
+# Consul-playground
